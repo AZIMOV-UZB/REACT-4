@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.uz{
+    display: none;
+}
+
+.navbar__icon{
+    font-size: 20px;
+}
+
+button:active{
+    transform: scale(1.1);
+  }
+
+
+  @media ( max-width:660px){
+    .navbar__collection{
+          display: none;
+    }
+.uz{
+    display: inline-block;
+}
+
+.navbar__icon{
+    font-size: 15px;
+}
+
+  }
