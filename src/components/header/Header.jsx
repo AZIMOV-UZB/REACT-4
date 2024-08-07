@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <div className='header p-4 bg-cyan-400	'>
 <div className='contaner'>
-    <nav className='navbar flex  items-center justify-between '>
+    <nav className='navbar  flex  items-center justify-between '>
 <div className='logbag  flex gap-2 items-center'>
 <img className='ounded-ss-full w-10 rounded-3xl' src={Logo} alt="logo" />
 <p className=' text-lg		 font-bold'>BOOK SHOP</p>

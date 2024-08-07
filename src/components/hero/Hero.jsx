@@ -12,7 +12,7 @@ import blag from '/hero-7.webp'
 export const Hero = () => {
   return (
     <div className='hero'>
-        <div className='hero__wrapper  flex overflow-auto	'>
+        <div className='hero__wrapper  flex overflow-auto	contaner'>
             <img className='w-2/4 h-80	' src={hero} alt="foto" />
             <img className='w-2/4 h-80	' src={img} alt="foto" />
             <img className='w-2/4 h-80	' src={bg} alt="foto" />
